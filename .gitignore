@@ -6,3 +6,6 @@
 /pkg/
 /spec/reports/
 /tmp/
+test.rb
+.idea/
+.bin/
