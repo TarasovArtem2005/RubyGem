@@ -1,0 +1,14 @@
+module OllamaAdapter
+  class Censor
+    @host: String
+    @model: String
+
+    def censor: -> untyped
+
+    def censor_file_text: -> untyped
+
+    private
+
+    def generate: -> untyped
+  end
+end

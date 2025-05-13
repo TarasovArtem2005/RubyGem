@@ -1,0 +1,16 @@
+module OllamaAdapter
+  class Client
+    @model: String
+    @host: String
+
+    def summarize_article: -> untyped
+
+    def summarize_file_text: -> untyped
+
+    def summarize_folder: -> untyped
+
+    private
+
+    def generate: -> untyped
+  end
+end
